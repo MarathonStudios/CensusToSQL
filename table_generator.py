@@ -301,11 +301,11 @@ class table_generator:
 	def create_tables(self):
 
 		# save the execution file data
-  		with open (self.execution_file_path, encoding='utf-8') as execution_file:
+		with open (self.execution_file_path, encoding='utf-8') as execution_file:
 
-  			execution_file_data = json.load(execution_file)
+			execution_file_data = json.load(execution_file)
 
-  		# loop through each table
+		# loop through each table
 		for table_index, table_name in enumerate(execution_file_data['tables']):
 
 			#store the attributes for each table
