@@ -1,8 +1,6 @@
 # CensusToSQL
 CensusToSQL is a Python script that allows direct importing of Census Bureau American Community Survey (ACS) data from the Census API to a MySQL database.
 
-<hr>
-
 ### What do I need to run this program?
 - A running mySQL server
 - python 3
