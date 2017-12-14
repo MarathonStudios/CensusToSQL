@@ -1,0 +1,10 @@
+{
+	"DB_Connection" : {
+		"username" : "",
+		"password" : "",
+		"host"	: "",
+		"port"	: "",
+		"dataset_schema" : ""
+	},
+	"Census_API_Key" : ""
+}

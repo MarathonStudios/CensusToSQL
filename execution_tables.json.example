@@ -1,0 +1,18 @@
+{
+	"tables" : {
+		"test_table_one" : {
+			"columns" : "B25090_002E,B25090_003E, B25090_001E",
+			"include_margin_of_error": true,
+			"geography" : "state",
+			"range_of_years": "2013,2016",
+			"term" : "1"
+		},
+		"test_table_two" : {
+			"columns" : "B25090_002E,B25090_003E, B25090_001E",
+			"include_margin_of_error": false,
+			"geography" : "county",
+			"range_of_years": "2011,2016",
+			"term" : "5"
+		}
+	}
+}
