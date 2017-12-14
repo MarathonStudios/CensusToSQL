@@ -29,8 +29,6 @@ Note: As of this version only American Community Survey 1-Year Data (2011-2016),
 
 Step One:
 - Create a schema in mysql for storing the census api data (Don't add anything to this schema! or else things might break)
-- Create a config.json file in this directory and copy the contents of config.json.example into it
-- Create a execution_tables.json file and copy the contents of execution_tables.json.example into it
 - Enter your database connection information in the config.json file (the schema name attribute is the name of the schema you created in the last step)
 - Enter your census.gov developer api key in the config.json file (don't have an api key? get one at https://api.census.gov/data/key_signup.html)
 
